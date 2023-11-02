@@ -123,7 +123,7 @@
     
     <div class="contact-form">
       <h4 class="about-title c-white">Contact Me</h4>
-      <form action="submit_form.php" method="post">
+      <form onsubmit="sendEmail(); reset(); return false;">
         <div class="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required>
@@ -139,6 +139,25 @@
         <button type="submit" class="contact-button">Send Message</button>
       </form>
     </div>
+    <script src = "https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username : "sbaijal55@gmail.com",
+          Password : "vljonlpkkidpelvu",
+          To: "shobhitbaijal8@gmail.com",
+          From: document.getElementById("email").value,
+          Subject : "New Contact Form Query",
+          Body: "Name" + document.getElementById("name").value + "<br>Message" + document.getElementById("message").value
+        }).then(
+          message => alert("mail sent successfully")
+        );
+        
+        
+      }
+  
+    </script>
     
   </section>
   <footer>
@@ -172,6 +191,7 @@
       });
     }
   </script>
+
   <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r98/three.js"></script>
   <script src="https://fariskassim.com/stage/rebel9/teaf/blob/v4/js/perlin.js"></script>
