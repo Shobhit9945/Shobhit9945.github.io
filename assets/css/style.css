@@ -565,6 +565,67 @@ body {
     }
 }
 
+/* Your existing CSS styles */
+
+
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #000;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.contact-form h4 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #fff;
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-size: 1rem;
+  background: #000;
+  color: #fff;
+}
+
+.form-group textarea {
+  height: 150px; /* Adjust the height as needed */
+}
+
+.contact-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
 
 footer{
     background: #000;
