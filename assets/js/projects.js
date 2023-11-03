@@ -2,17 +2,17 @@ const projects = [
     {
         "name": "ShoBOT",
         "description": "ShoBOT is a multipurpose discord bot. It contains many features like Moderation, Music, Games, Utilities and more",
-        "url": "https://shobot.ml/"
+        "url": "https://shobottk.pages.dev/"
     },
     {
-        "name": "Mail OTP system",
-        "description": "An OTP generation system that sends the OTP to the user's email",
-        "url": "https://sourceb.in/PHUJ3wO2q5"
+        "name": "Plagiarism Checker",
+        "description": "a powerful tool designed to help users maintain academic and professional integrity by ensuring their work is free from plagiarism",
+        "url": "https://github.com/Shobhit9945/Plagiarism"
     },
     {
-        "name": "Guess the number",
-        "description": "Guess the number game",
-        "url": "https://sourceb.in/M2ZOr7hTXX"
+        "name": "Hackathon Website",
+        "description": "Developed the website for an exciting interschool hackathon event. The website serves as a hub for all things related to the hackathon.",
+        "url": "https://codeforgood.in/"
     },
     {
         "name": "Text Assistant app",
@@ -43,5 +43,10 @@ const projects = [
         "name":"Rock Paper Scissors",
         "description":"Simple Rock Paper Scissors game",
         "url":"https://sourceb.in/s4HpT9hLgg"
-    }
+    },
+    {
+        "name": "Mail OTP system",
+        "description": "An OTP generation system that sends the OTP to the user's email",
+        "url": "https://sourceb.in/PHUJ3wO2q5"
+    },
 ]
