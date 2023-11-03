@@ -139,33 +139,29 @@
         <button type="submit" class="contact-button">Send Message</button>
       </form>
     </div>
-    <script src = "https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("xVT_lTR4P-D2WG52n");
+})();
+</script>
     <script>
-      function sendEmail(){
-        console.log(Email); // Check if SMTPJS is loaded
-        var from = document.getElementById("mail").value;
-        var name = document.getElementById("name").value;
-        var message = document.getElementById("message").value;
-        console.log(from, name, message); // Check form values
-
-        Email.send({
-          Host: "http://smtp.elasticemail.com/",
-          //Username : "sbaijal55@gmail.com",
-          //Password : "ngmikalpmibopvbe",
-          
-          SecureToken : "403c82e3-8c6e-4bd7-89f8-6f51974812e4",
-          To: "shobhitbaijal8@gmail.com",
-          From: document.getElementById("mail").value,
-          Subject : "New Contact Form Query",
-          Body: "Name" + document.getElementById("name").value + "<br>Message" + document.getElementById("message").value
-        }).then(
-          message => alert("mail sent successfully")
-        ).catch(
-          err => console.log("Something went wrong!",error)
-          );
-        
-        
-      }
+      function sendEmail() {
+  var params = {
+    name: document.getElementById("name").value,
+    message: document.getElementById("message").value,
+    email: document.getElementById("mail").value
+  }
+  emailjs.send('service_wg578to', "template_0xfkxzr", params)
+    .then(function(res) {
+      console.log("success", res.status);
+      alert('Form sent successfully!');
+    })
+    .catch(function(error) {
+      console.error("Failed to send email: ", error);
+      alert('Failed to submit form, kindly try contacting me directly.');
+    });
+}
   
     </script>
     
