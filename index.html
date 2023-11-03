@@ -149,9 +149,11 @@
         console.log(from, name, message); // Check form values
 
         Email.send({
-          Host: "smtp.gmail.com",
-          Username : "sbaijal55@gmail.com",
-          Password : "ngmikalpmibopvbe",
+          Host: "http://smtp.elasticemail.com/",
+          //Username : "sbaijal55@gmail.com",
+          //Password : "ngmikalpmibopvbe",
+          
+          SecureToken : "403c82e3-8c6e-4bd7-89f8-6f51974812e4",
           To: "shobhitbaijal8@gmail.com",
           From: document.getElementById("mail").value,
           Subject : "New Contact Form Query",
