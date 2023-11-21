@@ -15,6 +15,11 @@ const projects = [
         "url": "https://codeforgood.in/"
     },
     {
+        "name": "MacOS in Browser",
+        "description": "A website that has UI similar to MacOS running on cloud"
+        "url": "https://shobhitbiz.me"
+    },
+    {
         "name": "Text Assistant app",
         "description": "Advanced text assistant",
         "url": "https://drive.google.com/file/d/1OIpvje2KP4k1UiIPOzsnmulD5rU8Oobv/view?usp=sharing"
