@@ -16,7 +16,7 @@ const projects = [
     },
     {
         "name": "MacOS in Browser",
-        "description": "A website that has UI similar to MacOS running on cloud"
+        "description": "A website that has UI similar to MacOS running on cloud",
         "url": "https://shobhitbiz.me"
     },
     {
