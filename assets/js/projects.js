@@ -1,8 +1,8 @@
 const projects = [
     {
-        "name": "ShoBOT",
-        "description": "ShoBOT is a multipurpose discord bot. It contains many features like Moderation, Music, Games, Utilities and more",
-        "url": "https://shobottk.pages.dev/"
+        "name": "Sugar Professor",
+        "description": "Sugar professor is a website/blog which aims to raise awareness about the disadvantages of sugar consumption by compiling news/media from various trusted sources over the internet.",
+        "url":"https://sugarprofessor.pages.dev"    
     },
     {
         "name": "Plagiarism Checker",
@@ -38,6 +38,11 @@ const projects = [
         "name":"Eye Cursor",
         "description":"Control your mouse cursor with your eyes",
         "url":"https://sourceb.in/A4OxVcwadO"
+    },
+    {
+        "name": "ShoBOT",
+        "description": "ShoBOT is a multipurpose discord bot. It contains many features like Moderation, Music, Games, Utilities and more",
+        "url": "https://shobottk.pages.dev/"
     },
     {
         "name":"Tic Tac Toe",
