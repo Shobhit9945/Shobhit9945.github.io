@@ -17,7 +17,7 @@ const projects = [
     {
         "name": "MacOS in Browser",
         "description": "A website that has UI similar to MacOS running on cloud",
-        "url": "https://shobhitbiz.me"
+        "url": "https://shobhit9945.netlify.app"
     },
     {
         "name": "Text Assistant app",
