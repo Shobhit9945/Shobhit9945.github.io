@@ -2,7 +2,7 @@ const projects = [
     {
         "name": "DocNearMe",
         "description": "DocNearMe is a Japan-focused clinic booking platform that helps patients find nearby clinics and book appointments in advance—reducing language barriers and making clinic visits faster and more convenient.",
-        "url":"https://docnearby.netlify.app/"    
+        "url":"https://docnearme.jp"    
     },
     {
         "name": "Sugar Professor",
