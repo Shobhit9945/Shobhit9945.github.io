@@ -1,5 +1,10 @@
 const projects = [
     {
+        "name": "DocNearMe",
+        "description": "DocNearMe is a Japan-focused clinic booking platform that helps patients find nearby clinics and book appointments in advance—reducing language barriers and making clinic visits faster and more convenient.",
+        "url":"https://docnearby.netlify.app/"    
+    },
+    {
         "name": "Sugar Professor",
         "description": "Sugar professor is a website/blog which aims to raise awareness about the disadvantages of sugar consumption by compiling news/media from various trusted sources over the internet.",
         "url":"https://sugarprofessor.pages.dev"    
@@ -43,20 +48,5 @@ const projects = [
         "name": "ShoBOT",
         "description": "ShoBOT is a multipurpose discord bot. It contains many features like Moderation, Music, Games, Utilities and more",
         "url": "https://shobottk.pages.dev/"
-    },
-    {
-        "name":"Tic Tac Toe",
-        "description":"Simple Tic Tac Toe game",
-        "url":"https://sourceb.in/s4HpT9hLgg"
-    },
-    {
-        "name":"Rock Paper Scissors",
-        "description":"Simple Rock Paper Scissors game",
-        "url":"https://sourceb.in/s4HpT9hLgg"
-    },
-    {
-        "name": "Mail OTP system",
-        "description": "An OTP generation system that sends the OTP to the user's email",
-        "url": "https://sourceb.in/PHUJ3wO2q5"
-    },
+    }
 ]
